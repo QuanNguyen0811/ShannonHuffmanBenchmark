@@ -15,7 +15,7 @@ namespace ShannonHuffmanBenchmark
             {
                 Console.Clear();
                 Console.WriteLine("==========================================================================");
-                Console.WriteLine("   BENCHMARK MÃ HÓA NGUỒN: SHANNON-FANO vs HUFFMAN vs MÃ HÓA NGỮ NGHĨA   ");
+                Console.WriteLine("    MÃ HÓA NGUỒN: SHANNON-FANO vs HUFFMAN vs MÃ HÓA NGỮ NGHĨA   ");
                 Console.WriteLine("==========================================================================\n");
 
                 Console.WriteLine("CHỌN NGUỒN DỮ LIỆU ĐẦU VÀO:");
@@ -55,7 +55,7 @@ namespace ShannonHuffmanBenchmark
                         break;
 
                     case "3":
-                        inputText = "Cảnh báo khẩn cấp: Có sự cố ngập lụt cực kỳ nghiêm trọng tại khu vực giao lộ A, yêu cầu tất cả các phương tiện di chuyển tránh khu vực này ngay lập tức.";
+                        inputText = "Cảnh báo khẩn cấp: Có sự cố ngập lụt cực kỳ nghiêm trọng tại khu vực cổng Trần Đại Nghĩa, yêu cầu tất cả các phương tiện di chuyển tránh khu vực này ngay lập tức.";
                         break;
 
                     default:
@@ -78,7 +78,7 @@ namespace ShannonHuffmanBenchmark
 
         static void RunBenchmark(string inputText)
         {
-            Console.WriteLine("\n=================== KẾT QUẢ ĐÁNH GIÁ BENCHMARK ===================");
+            Console.WriteLine("\n=================== KẾT QUẢ ĐÁNH GIÁ ===================");
             
             string displayOriginal = inputText.Length > 120 ? inputText.Substring(0, 117) + "..." : inputText;
             Console.WriteLine($"Văn bản gốc ({inputText.Length} chars): \"{displayOriginal}\"");

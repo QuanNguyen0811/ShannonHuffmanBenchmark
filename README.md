@@ -1,6 +1,6 @@
 # 🚀 Semantic Communication vs Classical Source Coding Benchmark
 
-![.NET](https://img.shields.io/badge/.NET-8.0%2F9.0-purple)
+![.NET](https://img.shields.io/badge/.NET-10.0%2F9.0-purple)
 ![Language](https://img.shields.io/badge/Language-C%23-blue)
 ![License](https://img.shields.io/badge/License-MIT-green)
 
