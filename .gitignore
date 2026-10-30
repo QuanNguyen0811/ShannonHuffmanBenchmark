@@ -1,0 +1,7 @@
+# C# / .NET Ignore
+bin/
+obj/
+.vs/
+.vscode/
+*.user
+*.suo
